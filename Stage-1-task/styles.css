@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31, 31, 31);
+    border-radius: 40px;
+    width: 420px;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+}
+
+.jessica {
+    border-radius: 50%;
+}
+
+.text1 {
+    font-family: "./assets/fonts/static/Inter-Regular.ttf";
+    color: white;
+    margin-bottom:0;
+}
+
+.text2 {
+    font-family: "./assets/fonts/static/Inter-Regular.ttf";
+    color: rgb(127, 153, 54);
+    margin-top: 0;
+    text-align: center;
+}
+
+.text3 {
+    margin-top: 0;
+    text-align: center;
+    color: white;
+    font-family: "./assets/fonts/static/Inter-Regular.ttf";
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.media {
+    color: white;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+    padding: 12px;
+    border-radius: 6px;
+}
+.media:hover{
+    background-color: rgb(127, 153, 54);
+}
