@@ -1,0 +1,107 @@
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 400px;
+  width: 100%;
+}
+
+.code {
+  background-color: #24292e;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.code h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.code img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h1 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.content p {
+  margin: 8px 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.link {
+  color: #0366d6;
+  text-decoration: none;
+  margin-left: 8px;
+  font-weight: 500;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.content div {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.content img {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    margin: 20px;
+  }
+
+  .code img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .code h1 {
+    font-size: 1.5rem;
+  }
+}
+.edit-btn {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: #6e40c9; /* Dark purple */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-btn:hover {
+  background-color: #5b33a6; /* Slightly darker purple on hover */
+}
